@@ -13,9 +13,7 @@
 <!-- Babel Library -->
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://fonts.cdnfonts.com/css/billabong">
 <style>
-  @import url('http://fonts.cdnfonts.com/css/billabong');
     body{
         background-color: #fafafa;
         align-items: center;
@@ -42,8 +40,6 @@
         border-color:#D4D4D4;
     }
     .header{
-         font-family: 'Billabong', sans-serif;
-        font-size:55px ;
         padding: 30px 20px;
     }
     
@@ -155,12 +151,11 @@
     <div id="app">React has not rendered yet.</div>
     <!-- JAVASCRIPT CODE/SYNTAX -->
     <script type="text/babel">
-    
     var LogIn = function(){
         return(
             //form
             <div class="container">
-            <div class="header">Instagram</div>
+            <div class="header"><img src="img/instaTitle.png"/></div>
             <div><input type="text" class="uname" placeholder="Phone number, username, or email"/></div>
             <div><input type="password" class="pword" placeholder="Password"/></div>
             <div><input type="submit" value="Log In" class="loginButton"/></div>
